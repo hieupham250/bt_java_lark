@@ -1,6 +1,5 @@
 package OOP_2.ra.imp;
 
-import OOP_1.ra.entity.Book;
 import OOP_2.ra.entity.Product;
 import OOP_2.ra.validate.Validator;
 
@@ -12,9 +11,6 @@ public class ProductImp {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        products[currentProductIndex++] = new Product("P001", "Sản phẩm1", 100000, 120000, 17, "mô tả1", true);
-        products[currentProductIndex++] = new Product("P002", "Sản phẩm2", 100000, 190000, 5, "mô tả2", true);
-        products[currentProductIndex++] = new Product("P003", "Sản phẩm3", 100000, 130000, 21, "mô tả3", false);
         do {
             System.out.println("----------------------------MENU----------------------------");
             System.out.println("1. Nhập thông tin n sản phẩm (n nhập từ bàn phím)");
